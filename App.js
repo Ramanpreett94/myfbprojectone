@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Platform, Image, Text, View, ScrollView } from 'react-native';
 
 import firebase from 'react-native-firebase';
-
+import MyApp from './components/MyApp.js'; 
 export default class App extends React.Component {
   constructor() {
     super();
@@ -17,6 +17,16 @@ export default class App extends React.Component {
 
   render() {
     return (
+      <View style={{
+        flex :1,
+        flexDirection:'row',
+        justifyContent:'flex-start',
+        alignItems:'flex-start',
+        margin:10,
+      }}>
+      <MyApp/>
+      </View>
+      /*
       <ScrollView>
         <View style={styles.container}>
           <Image source={require('./assets/RNFirebase.png')} style={[styles.logo]}/>
@@ -56,7 +66,8 @@ export default class App extends React.Component {
             {firebase.storage.nativeModuleExists && <Text style={styles.module}>storage()</Text>}
           </View>
         </View>
-      </ScrollView>
+      </ScrollView> */
+      
     );
   }
 }

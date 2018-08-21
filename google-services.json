@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "997507782350",
+    "firebase_url": "https://myfbprojectone.firebaseio.com",
+    "project_id": "myfbprojectone",
+    "storage_bucket": "myfbprojectone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997507782350:android:5b070b07c6f6ad2e",
+        "android_client_info": {
+          "package_name": "com.firebase.myfirebaseone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997507782350-8cbg8slu0r69apq1qvarusamr9nvv5t7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-gAWJEmET2WYvjfZkIJuzTfJgpiSZ97A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
